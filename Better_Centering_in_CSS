@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Case</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style><!--
+body  {background-color:#333333;}
+a:link         {color:#FF9900; background-color:transparent; text-decoration:underline;}
+a:visited      {color:#FF6633; background-color:transparent; text-decoration:none;}
+a:active       {color:#CC3300; background-color:transparent; text-decoration:underline;}
+.panel-header  {color:#CC3333; font-family: Arial,Helevtica,sans-serif; font-weight:bold; font-size:3em;}
+.style-menu    {color:#CCCCCC; font-family: Arial,Helevtica,sans-serif; font-weight:bold; font-size:small;}
+.style-divider {color:#666666;}
+.panel-footer  {color:#565656; font-family: Arial,Helevtica,sans-serif; font-weight:bold;}
+.panel         {margin:45px 55px; padding:70px 0; border:1px solid grey; text-align:center;}
+--></style>
+</head>
+
+<body>
+<br>
+<a class="panel-header">l. j. rose</a>
+
+<hr align="left" WIDTH="95%" SIZE="4" noshade> 
+
+<div class="container">  
+    <div class="panel">  
+        <div class="panel-body"><video width="660" height="500" autoplay loop><source src="d:/drawngsforindex4.mp4"></video>
+        
+            <p> <a class="style-menu" href="bio.html">bio</a> <span class="style-divider">|</span> 
+                <a class="style-menu" href="art_TOC.html">art</a> <span class="style-divider">|</span>
+                <a class="style-menu" href="Writing.html">writing</a> <span class="style-divider">|</span>
+                <a class="style-menu" href="mailto: anonyms.today@gmail.com?subject=Inquiry from Site">contact</a> <span class="style-divider">|</span>
+                <a class="style-menu" href="http://www.etsy.com/shop/ljroseonline?section_id=10072943">shop</a>
+            </p>
+        </div>
+    </div>
+<br>
+<br>
+<div class="panel-footer">all image - copyright © 1988 l.j. rose</div>
+</div>
+
+</body>
+</html>
