@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+li {background-color:lightgreen; width:150px; color:blue}
+a {float:left;}
+div {display:inline-block}
+span {color:#000000;}
+.flex {display:flex}
+p{background-color:#808080; bottom-border:2px; height:2px;}
+</style>
+</head>
+
+<body>
+Problem: Outside is on next line, text is black w/o using class text-black 
+<ul><li>Coffee</li><li>Tea</li><li></li>Outside li</ul>Outside ul
+
+<p></p>
+<ul><li>Coffee</li><li>Tea</li><li style="height:0; font-size:20px"></li>Outside li, 0 height</ul>
+
+<p></p>
+<ul><li>Coffee</li><li>Tea</li><li><span>Inside li and span</span></li></ul>
+<ul><li style="background-color:#ffffff; color:grey;  font-size:20px">
+<span style="font-size:16px">Inside li and span</span></li></ul>
+
+<p></p>
+<ul><li>Coffee</li><li>Tea</li><li><span href="">Inside href<span></li></ul>
+<ul><li style="background-color:#ffffff; color:grey;  font-size:20px">
+<span href="" style="font-size:16px">Inside href<span></li></ul>
+
+<p></p>
+<ul><li>Coffee</li><li>Tea</li><div><li>Inside li</li></div><div>Outside inline-block div</div></ul>
+<ul><div><li style="color:grey; font-size:20px; background-color:#ffffff; width:0"></li>
+</div><div>Outside inline-block div</div></ul>
+
+<p></p>
+<ul><li>Coffee</li><li>Tea</li><a><li>Inside li</li></a><a>Outside float left</a><br></ul>
+<ul><a><li style="color:grey; font-size:20px; background-color:#ffffff; width:0"></li>
+</a><a>Outside float left</a></ul>&nbsp height change outside ul<br>
+
+<p></p>
+<ul class="flex"><li>Coffee</li><li>Tea</li><li>Inside li</li>Outside display flex</ul>
+<ul class="flex"><li style="color:grey;  font-size:20px; background-color:#ffffff; width:0">
+</li>Outside display flex</ul>
+
+
+<!--  ul{float: left;} keeps the bullets
+This will float all of your list items to the left, without wrapping, 
+until horizontal screen space is no longer available. 
+
+Alternatively, #ranks li {  display: inline-block;}
+Which will also put your elements side-by-side, but handle them as block level elements. 
+If you don't care about block-level styling, u could go with straight inline-display:
+
+#ranks li {  display: inline;}
+a {color:red; text-decoration: none;}
+ 
+white-space: nowrap;
+ul.b {list-style-type: square;}
+ol.c {list-style-type: upper-roman;}
+ol.d {list-style-type: lower-alpha;}
+-->
+
+</body>
+</html>
+
